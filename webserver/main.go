@@ -12,4 +12,4 @@ func firstPage(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", firstPage)
 	http.ListenAndServe(":7000", nil)
-}
+} 
